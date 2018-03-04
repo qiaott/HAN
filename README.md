@@ -1,5 +1,5 @@
 # Exploring Human-like Attention Supervision in Visual Question Answering
-This is the HLAT Dataset proposed in paper Exploring Human-like Attention Supervision in Visual Question Answering[paper](https://arxiv.org/abs/1709.06308), which has been accepted by AAAI-2018. 
+This is the HLAT Dataset proposed in paper [Exploring Human-like Attention Supervision in Visual Question Answering](https://arxiv.org/abs/1709.06308), which has been accepted by AAAI-2018. 
 
 In this work, we propose a Human Attention Network (HAN) to predict the attention map for a given image-question pair.
 ![The framework of HAN]()
@@ -12,19 +12,19 @@ We improve the performance of attention-based VQA models by adding human-like at
 
 Our method shows good performance in improving the accuracy of VQA, especially in counting problem, e.g.How many candles are on the table? For more details, please refer to our paper.
 
-## HLAT
+## HLAT Dataset
 
 Here we provide the .h5 file of attention maps for both the VQA1.0 and the VQA2.0 dataset.
 Using our attention maps to improve the performance of VQA is quite easy. 
 We did it through adding the attention supervision to the attention-based model.
 
-### The .h5 file of attention maps can be found here:
+#### The *.h5 file* of attention maps can be found [here]()
 
-The .h5 file format has the following data structure: 
+The *.h5 file* format has the following data structure: 
 {
-"pre_attmap" : attention maps for all question id 
+*__"pre_attmap" : attention maps for all question id__*
 }
-Which means that in each .h5 file, there is only one dict, whose key is named as "pre_attmap". The order of the attention maps is as same as the order of the question ids in the file. Therefore it is easy to get the attention maps for the question-image pairs if you know the order of the question id in the .json file provided by the [VQA official webset](http://visualqa.org/download.html)
+Which means that in each *.h5 file*, there is only one dict, whose key is named as *__"pre_attmap"__*. The order of the attention maps is as same as the order of the question ids in the file. Therefore we use the order of question ids to get the attention maps for the question-image pairs. the order of question id follows the original work of VQA [VQA official webset](http://visualqa.org/download.html)
 
 
 ### For VQA1.0 dataset, there are:
@@ -37,3 +37,6 @@ Which means that in each .h5 file, there is only one dict, whose key is named as
 447,793 attention maps for questions in the testing set
 107,394 attention maps for questions in the test-dev set
 
+## VQA-HAT Dataset
+Here we also provide the link of the VQA-HAT Dataset, which is from paper [Human Attention in Visual Question Answering:
+Do Humans and Deep Networks Look at the Same Regions?](https://arxiv.org/abs/1606.03556).
