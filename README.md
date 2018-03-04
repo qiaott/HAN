@@ -28,14 +28,14 @@ Which means that in each *.h5 file*, there is only one dict, whose key is named 
 
 
 ### For VQA1.0 dataset, there are:
-369,861 attention maps for questions in the trainval set 
-244,302 attention maps for questions in the testing set
- 60,864 attention maps for questions in the test-dev set
+* 369,861 attention maps for questions in the trainval set 
+* 244,302 attention maps for questions in the testing set
+* 60,864 attention maps for questions in the test-dev set
 
 ### For VQA2.0 dataset, there are:
-658,111 attention maps for questions in the trainval set 
-447,793 attention maps for questions in the testing set
-107,394 attention maps for questions in the test-dev set
++ 658,111 attention maps for questions in the trainval set 
++ 447,793 attention maps for questions in the testing set
++ 107,394 attention maps for questions in the test-dev set
 
 ## VQA-HAT Dataset
 Here we also provide the link of the VQA-HAT Dataset, which is from paper [Human Attention in Visual Question Answering:
