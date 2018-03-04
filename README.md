@@ -1,12 +1,14 @@
 # HLAT Dataset
+This is the HLAT Dataset proposed in paper Exploring Human-like Attention Supervision in Visual Question Answering.
+which has been accepted by AAAI-2018. [paper](https://arxiv.org/abs/1709.06308)
 
-In our work, we propose a Human Attention Network (HAN) to predict the attention map for a given image-question pair.
+In this work, we propose a Human Attention Network (HAN) to predict the attention map for a given image-question pair.
+
 Here we provide the .h5 file of attention maps for both the VQA1.0 and the VQA2.0 dataset.
 Using the attention maps to improve the performance of VQA is quite easy. 
 We did it through adding the attention supervision to the attention-based model.
 For more details, please refer to our paper: 
-https://arxiv.org/abs/1709.06308
-This work has been accepted by AAAI-2018.
+
 
 The .h5 file of attention maps can be found here:
 
