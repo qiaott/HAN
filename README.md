@@ -28,7 +28,7 @@ The *.h5 file* format has the following data structure:
 *__"pre_attmap" : attention maps for all question id__*
 }
 
-Which means that in each *.h5 file*, there is only one dict, whose key is named as *__"pre_attmap"__*. The order of the attention maps is as same as the order of the question ids in the file. Therefore we use the order of question ids to get the attention maps for the question-image pairs. the order of question id follows the VQA 1.0 and VQA 2.0 official datasets[website](http://visualqa.org/download.html).
+Which means that in each *.h5 file*, there is only one dict, whose key is named as *__"pre_attmap"__*. The order of the attention maps is as same as the order of the question ids in the file. Therefore we use the order of question ids to get the attention maps for the question-image pairs. The order of question id follows the VQA 1.0 and VQA 2.0 official datasets [website](http://visualqa.org/download.html).
 
 
 ### For VQA1.0 dataset, there are:
