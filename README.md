@@ -50,4 +50,10 @@ Do Humans and Deep Networks Look at the Same Regions?](https://arxiv.org/abs/160
 
 ## Cite
 
-We would be very appreciate if you cite our work.
+We would be very appreciate if you cite our work:  
+@inproceedings{qiao2018exploring,  
+  title={Exploring human-like attention supervision in visual question answering},  
+  author={Qiao, Tingting and Dong, Jianfeng and Xu, Duanqing},  
+  booktitle={Thirty-Second AAAI Conference on Artificial Intelligence},  
+  year={2018}  
+}
